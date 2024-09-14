@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="src/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="src/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <title>Projeto - Materialize</title>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="brown darken-3" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#home" class="brand-logo">Logo Marca</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="section  brown lighten-2 scrollspy" id="home">
+    <div class="container sect1">
+      <div class="formContainer">
+        <div class="row">
+          <div class="col s12 center-align">
+            <form action="">
+              <div class="input-field col s12">
+                <input id="email_inline" type="email" class="validate">
+                <label for="email_inline">Insira seu e-mail para novidades</label>
+              </div>
+              <div class="input-field col s12">
+                <button data-target="modal2" class="btn waves-effect waves-light brown darken-4 modal-trigger" type="submit" name="action">
+                  Cadastrar
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal2" class="modal brown lighten-4">
+    <div class="modal-content center-align">
+      <h4>E-mail cadastrado com sucesso!</h4>
+    </div>
+    <div class="modal-footer brown lighten-4">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h2 class="customTitle">Sobre nós<hr></h2>
+          <p class="flow-text">Somos uma equipe dedicada ao desenvolvimento de soluções inovadoras para o mercado digital. Nosso foco é a criação de experiências impactantes.</p>
+        </div>
+        <div class="col s12 m6">
+          <h2 class="customTitle">Mensagem do dia<hr></h2>
+          <div class="card brown darken-1 z-depth-4">
+            <div class="card-content white-text">
+              <span class="card-title">Seja Inspirado!</span>
+              <p>"O sucesso é a soma de pequenos esforços repetidos dia após dia." - Robert Collier</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section scrollspy" id="sobre">
+    <div class="container">
+      <div class="row">
+        <h2 class="customTitle">Galeria de Projetos<hr></h2>
+        <div class="col m4 s12">
+          <div class="card small">
+            <div class="card-image">
+              <img src="src/images/background1.jpg" alt="imagem de uma moto">
+              <span class="card-title">Projeto 1</span>
+            </div>
+            <div class="card-content">
+              <p>Este é um exemplo de projeto em desenvolvimento. Criamos soluções que encantam os clientes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="card small">
+            <div class="card-image">
+              <img src="src/images/background2.jpg" alt="imagem de uma moto">
+              <span class="card-title">Projeto 2</span>
+            </div>
+            <div class="card-content">
+              <p>Nossa equipe trabalha com as melhores tecnologias para entregar resultados de alta qualidade.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="card small">
+            <div class="card-image">
+              <img src="src/images/background3.jpg" alt="imagem de uma moto">
+              <span class="card-title">Projeto 3</span>
+            </div>
+            <div class="card-content">
+              <p>Um projeto inovador para transformar a experiência digital dos usuários.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <h2 class="customTitle">Nossa Equipe<hr></h2>
+        <div class="col m6 s12">
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons circle">assignment_ind</i>
+              <span class="title">Ana Souza</span>
+              <p>Gerente de Projetos <br>Coordena a equipe e garante a entrega de qualidade.</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">business_center</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle">assignment_ind</i>
+              <span class="title">Carlos Almeida</span>
+              <p>Desenvolvedor Front-end <br> Especialista em criar interfaces interativas e amigáveis.</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">business_center</i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col m6 s12">
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons circle">assignment_ind</i>
+              <span class="title">Juliana Pereira</span>
+              <p>Desenvolvedora Back-end<br>Focada em otimização e segurança de sistemas.</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">business_center</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle">assignment_ind</i>
+              <span class="title">Ricardo Silva</span>
+              <p>Designer UX/UI<br>Responsável por criar designs que encantam os usuários.</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">business_center</i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section scrollspy" id="contato">
+    <div class="container">
+      <div class="row">
+        <h2 class="customTitle">Entre em contato!<hr></h2>
+        <div class="container customForm">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12 m6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">Primeiro nome</label>
+                </div>
+                <div class="input-field col s12 m6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Sobrenome</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">E-mail</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Mensagem</label>
+                </div>
+              </div>
+              <button data-target="modal1" class="btn waves-effect waves-light brown darken-4 modal-trigger" type="submit" name="action">
+                Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal-->
+  <div id="modal1" class="modal brown lighten-4">
+    <div class="modal-content ">
+      <h4>Mensagem enviada!</h4>
+      <p>Agradecemos o contato!</p>
+    </div>
+    <div class="modal-footer brown lighten-4">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+  </div>
+  <footer class="page-footer brown lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre a Empresa</h5>
+          <p class="grey-text text-lighten-4">Somos uma empresa focada em desenvolver soluções digitais</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Conecte-se</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright brown darken-3">
+      <div class="container center-align">© 2014 Copyright Text</div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="src/js/materialize.js"></script>
+  <script src="src/js/init.js"></script>
+</body>
+</html>

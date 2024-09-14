@@ -1,0 +1,38 @@
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1 {
+  min-height: 400px;
+  position: relative;
+}
+
+.formContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  max-width: 700px;
+  width: 100%;
+  padding: 15px 2%;
+
+}
+
+h2.customTitle {
+  font-size: 30px;
+}
+
+.customForm{
+  max-width: 700px;
+}
+
+.sidenav-overlay{
+  z-index: 1;
+}
+
+.sidenav{
+  z-index: 3;
+  padding-top: 5rem;
+}
